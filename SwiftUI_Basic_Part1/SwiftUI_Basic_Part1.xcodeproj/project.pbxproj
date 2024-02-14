@@ -31,6 +31,7 @@
 		C0906A482B7CA256001D71FB /* IgnoreSafeAreaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A472B7CA256001D71FB /* IgnoreSafeAreaLayout.swift */; };
 		C0906A4A2B7CA9CC001D71FB /* LazyStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A492B7CA9CC001D71FB /* LazyStacks.swift */; };
 		C0906A4C2B7CB454001D71FB /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A4B2B7CB454001D71FB /* GridLayout.swift */; };
+		C0906A4E2B7CC409001D71FB /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A4D2B7CC409001D71FB /* Buttons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		C0906A472B7CA256001D71FB /* IgnoreSafeAreaLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaLayout.swift; sourceTree = "<group>"; };
 		C0906A492B7CA9CC001D71FB /* LazyStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStacks.swift; sourceTree = "<group>"; };
 		C0906A4B2B7CB454001D71FB /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		C0906A4D2B7CC409001D71FB /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				C0906A472B7CA256001D71FB /* IgnoreSafeAreaLayout.swift */,
 				C0906A492B7CA9CC001D71FB /* LazyStacks.swift */,
 				C0906A4B2B7CB454001D71FB /* GridLayout.swift */,
+				C0906A4D2B7CC409001D71FB /* Buttons.swift */,
 			);
 			path = Courses;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				C0906A012B7C79BB001D71FB /* SwiftUI_Basic_Part1App.swift in Sources */,
 				C0906A2D2B7C7BBB001D71FB /* Shapes.swift in Sources */,
 				C0906A4C2B7CB454001D71FB /* GridLayout.swift in Sources */,
+				C0906A4E2B7CC409001D71FB /* Buttons.swift in Sources */,
 				C0906A4A2B7CA9CC001D71FB /* LazyStacks.swift in Sources */,
 				C0906A322B7C8865001D71FB /* Gradients.swift in Sources */,
 				C0906A3E2B7C9770001D71FB /* Padding.swift in Sources */,
