@@ -29,6 +29,7 @@
 		C0906A442B7C9E2F001D71FB /* LoopForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A432B7C9E2F001D71FB /* LoopForEach.swift */; };
 		C0906A462B7C9F6A001D71FB /* ScrollViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A452B7C9F6A001D71FB /* ScrollViewLayout.swift */; };
 		C0906A482B7CA256001D71FB /* IgnoreSafeAreaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A472B7CA256001D71FB /* IgnoreSafeAreaLayout.swift */; };
+		C0906A4A2B7CA9CC001D71FB /* LazyStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A492B7CA9CC001D71FB /* LazyStacks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		C0906A432B7C9E2F001D71FB /* LoopForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopForEach.swift; sourceTree = "<group>"; };
 		C0906A452B7C9F6A001D71FB /* ScrollViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewLayout.swift; sourceTree = "<group>"; };
 		C0906A472B7CA256001D71FB /* IgnoreSafeAreaLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaLayout.swift; sourceTree = "<group>"; };
+		C0906A492B7CA9CC001D71FB /* LazyStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStacks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 				C0906A432B7C9E2F001D71FB /* LoopForEach.swift */,
 				C0906A452B7C9F6A001D71FB /* ScrollViewLayout.swift */,
 				C0906A472B7CA256001D71FB /* IgnoreSafeAreaLayout.swift */,
+				C0906A492B7CA9CC001D71FB /* LazyStacks.swift */,
 			);
 			path = Courses;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				C0906A032B7C79BB001D71FB /* ContentView.swift in Sources */,
 				C0906A012B7C79BB001D71FB /* SwiftUI_Basic_Part1App.swift in Sources */,
 				C0906A2D2B7C7BBB001D71FB /* Shapes.swift in Sources */,
+				C0906A4A2B7CA9CC001D71FB /* LazyStacks.swift in Sources */,
 				C0906A322B7C8865001D71FB /* Gradients.swift in Sources */,
 				C0906A3E2B7C9770001D71FB /* Padding.swift in Sources */,
 				C0906A402B7C9A5A001D71FB /* Spacers.swift in Sources */,
