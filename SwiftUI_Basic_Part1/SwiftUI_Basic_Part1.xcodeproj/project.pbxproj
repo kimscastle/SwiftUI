@@ -30,6 +30,7 @@
 		C0906A462B7C9F6A001D71FB /* ScrollViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A452B7C9F6A001D71FB /* ScrollViewLayout.swift */; };
 		C0906A482B7CA256001D71FB /* IgnoreSafeAreaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A472B7CA256001D71FB /* IgnoreSafeAreaLayout.swift */; };
 		C0906A4A2B7CA9CC001D71FB /* LazyStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A492B7CA9CC001D71FB /* LazyStacks.swift */; };
+		C0906A4C2B7CB454001D71FB /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A4B2B7CB454001D71FB /* GridLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		C0906A452B7C9F6A001D71FB /* ScrollViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewLayout.swift; sourceTree = "<group>"; };
 		C0906A472B7CA256001D71FB /* IgnoreSafeAreaLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaLayout.swift; sourceTree = "<group>"; };
 		C0906A492B7CA9CC001D71FB /* LazyStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStacks.swift; sourceTree = "<group>"; };
+		C0906A4B2B7CB454001D71FB /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 				C0906A452B7C9F6A001D71FB /* ScrollViewLayout.swift */,
 				C0906A472B7CA256001D71FB /* IgnoreSafeAreaLayout.swift */,
 				C0906A492B7CA9CC001D71FB /* LazyStacks.swift */,
+				C0906A4B2B7CB454001D71FB /* GridLayout.swift */,
 			);
 			path = Courses;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				C0906A032B7C79BB001D71FB /* ContentView.swift in Sources */,
 				C0906A012B7C79BB001D71FB /* SwiftUI_Basic_Part1App.swift in Sources */,
 				C0906A2D2B7C7BBB001D71FB /* Shapes.swift in Sources */,
+				C0906A4C2B7CB454001D71FB /* GridLayout.swift in Sources */,
 				C0906A4A2B7CA9CC001D71FB /* LazyStacks.swift in Sources */,
 				C0906A322B7C8865001D71FB /* Gradients.swift in Sources */,
 				C0906A3E2B7C9770001D71FB /* Padding.swift in Sources */,
