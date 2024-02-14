@@ -17,6 +17,7 @@
 		C0906A2B2B7C7A13001D71FB /* AddingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A2A2B7C7A13001D71FB /* AddingText.swift */; };
 		C0906A2D2B7C7BBB001D71FB /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A2C2B7C7BBB001D71FB /* Shapes.swift */; };
 		C0906A2F2B7C86AB001D71FB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A2E2B7C86AB001D71FB /* Colors.swift */; };
+		C0906A322B7C8865001D71FB /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A312B7C8865001D71FB /* Gradients.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		C0906A2A2B7C7A13001D71FB /* AddingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingText.swift; sourceTree = "<group>"; };
 		C0906A2C2B7C7BBB001D71FB /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		C0906A2E2B7C86AB001D71FB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		C0906A312B7C8865001D71FB /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,13 +102,10 @@
 		C09069FF2B7C79BB001D71FB /* SwiftUI_Basic_Part1 */ = {
 			isa = PBXGroup;
 			children = (
+				C0906A302B7C8851001D71FB /* Courses */,
 				C0906A002B7C79BB001D71FB /* SwiftUI_Basic_Part1App.swift */,
-				C0906A022B7C79BB001D71FB /* ContentView.swift */,
-				C0906A2A2B7C7A13001D71FB /* AddingText.swift */,
 				C0906A042B7C79BD001D71FB /* Assets.xcassets */,
 				C0906A062B7C79BD001D71FB /* Preview Content */,
-				C0906A2C2B7C7BBB001D71FB /* Shapes.swift */,
-				C0906A2E2B7C86AB001D71FB /* Colors.swift */,
 			);
 			path = SwiftUI_Basic_Part1;
 			sourceTree = "<group>";
@@ -134,6 +133,18 @@
 				C0906A1D2B7C79BD001D71FB /* SwiftUI_Basic_Part1UITestsLaunchTests.swift */,
 			);
 			path = SwiftUI_Basic_Part1UITests;
+			sourceTree = "<group>";
+		};
+		C0906A302B7C8851001D71FB /* Courses */ = {
+			isa = PBXGroup;
+			children = (
+				C0906A022B7C79BB001D71FB /* ContentView.swift */,
+				C0906A2A2B7C7A13001D71FB /* AddingText.swift */,
+				C0906A2C2B7C7BBB001D71FB /* Shapes.swift */,
+				C0906A2E2B7C86AB001D71FB /* Colors.swift */,
+				C0906A312B7C8865001D71FB /* Gradients.swift */,
+			);
+			path = Courses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +282,7 @@
 				C0906A032B7C79BB001D71FB /* ContentView.swift in Sources */,
 				C0906A012B7C79BB001D71FB /* SwiftUI_Basic_Part1App.swift in Sources */,
 				C0906A2D2B7C7BBB001D71FB /* Shapes.swift in Sources */,
+				C0906A322B7C8865001D71FB /* Gradients.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
