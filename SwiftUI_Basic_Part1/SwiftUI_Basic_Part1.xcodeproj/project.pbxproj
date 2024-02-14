@@ -37,6 +37,7 @@
 		C0906A542B7CCCF5001D71FB /* Conditional.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A532B7CCCF5001D71FB /* Conditional.swift */; };
 		C0906A562B7CCE81001D71FB /* BindingProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A552B7CCE81001D71FB /* BindingProperty.swift */; };
 		C0906A582B7CD0CE001D71FB /* ListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A572B7CD0CE001D71FB /* ListLayout.swift */; };
+		C0906A5A2B7CD4A5001D71FB /* NavigationStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A592B7CD4A5001D71FB /* NavigationStructure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		C0906A532B7CCCF5001D71FB /* Conditional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditional.swift; sourceTree = "<group>"; };
 		C0906A552B7CCE81001D71FB /* BindingProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingProperty.swift; sourceTree = "<group>"; };
 		C0906A572B7CD0CE001D71FB /* ListLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLayout.swift; sourceTree = "<group>"; };
+		C0906A592B7CD4A5001D71FB /* NavigationStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStructure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 				C0906A532B7CCCF5001D71FB /* Conditional.swift */,
 				C0906A552B7CCE81001D71FB /* BindingProperty.swift */,
 				C0906A572B7CD0CE001D71FB /* ListLayout.swift */,
+				C0906A592B7CD4A5001D71FB /* NavigationStructure.swift */,
 			);
 			path = Courses;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0906A562B7CCE81001D71FB /* BindingProperty.swift in Sources */,
+				C0906A5A2B7CD4A5001D71FB /* NavigationStructure.swift in Sources */,
 				C0906A542B7CCCF5001D71FB /* Conditional.swift in Sources */,
 				C0906A482B7CA256001D71FB /* IgnoreSafeAreaLayout.swift in Sources */,
 				C0906A582B7CD0CE001D71FB /* ListLayout.swift in Sources */,
