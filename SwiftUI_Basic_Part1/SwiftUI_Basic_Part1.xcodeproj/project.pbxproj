@@ -25,6 +25,7 @@
 		C0906A3C2B7C9395001D71FB /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A3B2B7C9395001D71FB /* Stacks.swift */; };
 		C0906A3E2B7C9770001D71FB /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A3D2B7C9770001D71FB /* Padding.swift */; };
 		C0906A402B7C9A5A001D71FB /* Spacers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A3F2B7C9A5A001D71FB /* Spacers.swift */; };
+		C0906A422B7C9C83001D71FB /* Discussion1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A412B7C9C83001D71FB /* Discussion1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		C0906A3B2B7C9395001D71FB /* Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
 		C0906A3D2B7C9770001D71FB /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
 		C0906A3F2B7C9A5A001D71FB /* Spacers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacers.swift; sourceTree = "<group>"; };
+		C0906A412B7C9C83001D71FB /* Discussion1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discussion1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				C0906A3B2B7C9395001D71FB /* Stacks.swift */,
 				C0906A3D2B7C9770001D71FB /* Padding.swift */,
 				C0906A3F2B7C9A5A001D71FB /* Spacers.swift */,
+				C0906A412B7C9C83001D71FB /* Discussion1.swift */,
 			);
 			path = Courses;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				C0906A382B7C8EFA001D71FB /* Frame.swift in Sources */,
 				C0906A342B7C8A67001D71FB /* Images.swift in Sources */,
 				C0906A3C2B7C9395001D71FB /* Stacks.swift in Sources */,
+				C0906A422B7C9C83001D71FB /* Discussion1.swift in Sources */,
 				C0906A3A2B7C91D7001D71FB /* Overlay.swift in Sources */,
 				C0906A362B7C8CC0001D71FB /* Symbols.swift in Sources */,
 				C0906A2B2B7C7A13001D71FB /* AddingText.swift in Sources */,
