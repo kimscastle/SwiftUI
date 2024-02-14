@@ -28,6 +28,7 @@
 		C0906A422B7C9C83001D71FB /* Discussion1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A412B7C9C83001D71FB /* Discussion1.swift */; };
 		C0906A442B7C9E2F001D71FB /* LoopForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A432B7C9E2F001D71FB /* LoopForEach.swift */; };
 		C0906A462B7C9F6A001D71FB /* ScrollViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A452B7C9F6A001D71FB /* ScrollViewLayout.swift */; };
+		C0906A482B7CA256001D71FB /* IgnoreSafeAreaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A472B7CA256001D71FB /* IgnoreSafeAreaLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		C0906A412B7C9C83001D71FB /* Discussion1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discussion1.swift; sourceTree = "<group>"; };
 		C0906A432B7C9E2F001D71FB /* LoopForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopForEach.swift; sourceTree = "<group>"; };
 		C0906A452B7C9F6A001D71FB /* ScrollViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewLayout.swift; sourceTree = "<group>"; };
+		C0906A472B7CA256001D71FB /* IgnoreSafeAreaLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 				C0906A412B7C9C83001D71FB /* Discussion1.swift */,
 				C0906A432B7C9E2F001D71FB /* LoopForEach.swift */,
 				C0906A452B7C9F6A001D71FB /* ScrollViewLayout.swift */,
+				C0906A472B7CA256001D71FB /* IgnoreSafeAreaLayout.swift */,
 			);
 			path = Courses;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0906A482B7CA256001D71FB /* IgnoreSafeAreaLayout.swift in Sources */,
 				C0906A382B7C8EFA001D71FB /* Frame.swift in Sources */,
 				C0906A342B7C8A67001D71FB /* Images.swift in Sources */,
 				C0906A3C2B7C9395001D71FB /* Stacks.swift in Sources */,
