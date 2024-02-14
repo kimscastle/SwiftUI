@@ -35,6 +35,7 @@
 		C0906A502B7CC695001D71FB /* StateProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A4F2B7CC695001D71FB /* StateProperty.swift */; };
 		C0906A522B7CCB27001D71FB /* ExtractSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A512B7CCB27001D71FB /* ExtractSubView.swift */; };
 		C0906A542B7CCCF5001D71FB /* Conditional.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A532B7CCCF5001D71FB /* Conditional.swift */; };
+		C0906A562B7CCE81001D71FB /* BindingProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A552B7CCE81001D71FB /* BindingProperty.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		C0906A4F2B7CC695001D71FB /* StateProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateProperty.swift; sourceTree = "<group>"; };
 		C0906A512B7CCB27001D71FB /* ExtractSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubView.swift; sourceTree = "<group>"; };
 		C0906A532B7CCCF5001D71FB /* Conditional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditional.swift; sourceTree = "<group>"; };
+		C0906A552B7CCE81001D71FB /* BindingProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingProperty.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 				C0906A4F2B7CC695001D71FB /* StateProperty.swift */,
 				C0906A512B7CCB27001D71FB /* ExtractSubView.swift */,
 				C0906A532B7CCCF5001D71FB /* Conditional.swift */,
+				C0906A552B7CCE81001D71FB /* BindingProperty.swift */,
 			);
 			path = Courses;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0906A562B7CCE81001D71FB /* BindingProperty.swift in Sources */,
 				C0906A542B7CCCF5001D71FB /* Conditional.swift in Sources */,
 				C0906A482B7CA256001D71FB /* IgnoreSafeAreaLayout.swift in Sources */,
 				C0906A382B7C8EFA001D71FB /* Frame.swift in Sources */,
