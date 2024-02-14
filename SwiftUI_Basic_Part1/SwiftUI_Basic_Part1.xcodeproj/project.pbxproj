@@ -27,6 +27,7 @@
 		C0906A402B7C9A5A001D71FB /* Spacers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A3F2B7C9A5A001D71FB /* Spacers.swift */; };
 		C0906A422B7C9C83001D71FB /* Discussion1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A412B7C9C83001D71FB /* Discussion1.swift */; };
 		C0906A442B7C9E2F001D71FB /* LoopForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A432B7C9E2F001D71FB /* LoopForEach.swift */; };
+		C0906A462B7C9F6A001D71FB /* ScrollViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A452B7C9F6A001D71FB /* ScrollViewLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		C0906A3F2B7C9A5A001D71FB /* Spacers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacers.swift; sourceTree = "<group>"; };
 		C0906A412B7C9C83001D71FB /* Discussion1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discussion1.swift; sourceTree = "<group>"; };
 		C0906A432B7C9E2F001D71FB /* LoopForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopForEach.swift; sourceTree = "<group>"; };
+		C0906A452B7C9F6A001D71FB /* ScrollViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				C0906A3F2B7C9A5A001D71FB /* Spacers.swift */,
 				C0906A412B7C9C83001D71FB /* Discussion1.swift */,
 				C0906A432B7C9E2F001D71FB /* LoopForEach.swift */,
+				C0906A452B7C9F6A001D71FB /* ScrollViewLayout.swift */,
 			);
 			path = Courses;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				C0906A442B7C9E2F001D71FB /* LoopForEach.swift in Sources */,
 				C0906A2B2B7C7A13001D71FB /* AddingText.swift in Sources */,
 				C0906A2F2B7C86AB001D71FB /* Colors.swift in Sources */,
+				C0906A462B7C9F6A001D71FB /* ScrollViewLayout.swift in Sources */,
 				C0906A032B7C79BB001D71FB /* ContentView.swift in Sources */,
 				C0906A012B7C79BB001D71FB /* SwiftUI_Basic_Part1App.swift in Sources */,
 				C0906A2D2B7C7BBB001D71FB /* Shapes.swift in Sources */,
