@@ -33,6 +33,7 @@
 		C0906A4C2B7CB454001D71FB /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A4B2B7CB454001D71FB /* GridLayout.swift */; };
 		C0906A4E2B7CC409001D71FB /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A4D2B7CC409001D71FB /* Buttons.swift */; };
 		C0906A502B7CC695001D71FB /* StateProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A4F2B7CC695001D71FB /* StateProperty.swift */; };
+		C0906A522B7CCB27001D71FB /* ExtractSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A512B7CCB27001D71FB /* ExtractSubView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		C0906A4B2B7CB454001D71FB /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 		C0906A4D2B7CC409001D71FB /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		C0906A4F2B7CC695001D71FB /* StateProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateProperty.swift; sourceTree = "<group>"; };
+		C0906A512B7CCB27001D71FB /* ExtractSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 				C0906A4B2B7CB454001D71FB /* GridLayout.swift */,
 				C0906A4D2B7CC409001D71FB /* Buttons.swift */,
 				C0906A4F2B7CC695001D71FB /* StateProperty.swift */,
+				C0906A512B7CCB27001D71FB /* ExtractSubView.swift */,
 			);
 			path = Courses;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				C0906A442B7C9E2F001D71FB /* LoopForEach.swift in Sources */,
 				C0906A2B2B7C7A13001D71FB /* AddingText.swift in Sources */,
 				C0906A2F2B7C86AB001D71FB /* Colors.swift in Sources */,
+				C0906A522B7CCB27001D71FB /* ExtractSubView.swift in Sources */,
 				C0906A462B7C9F6A001D71FB /* ScrollViewLayout.swift in Sources */,
 				C0906A032B7C79BB001D71FB /* ContentView.swift in Sources */,
 				C0906A012B7C79BB001D71FB /* SwiftUI_Basic_Part1App.swift in Sources */,
