@@ -23,6 +23,7 @@
 		C0906A382B7C8EFA001D71FB /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A372B7C8EFA001D71FB /* Frame.swift */; };
 		C0906A3A2B7C91D7001D71FB /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A392B7C91D7001D71FB /* Overlay.swift */; };
 		C0906A3C2B7C9395001D71FB /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A3B2B7C9395001D71FB /* Stacks.swift */; };
+		C0906A3E2B7C9770001D71FB /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0906A3D2B7C9770001D71FB /* Padding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		C0906A372B7C8EFA001D71FB /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		C0906A392B7C91D7001D71FB /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
 		C0906A3B2B7C9395001D71FB /* Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
+		C0906A3D2B7C9770001D71FB /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				C0906A372B7C8EFA001D71FB /* Frame.swift */,
 				C0906A392B7C91D7001D71FB /* Overlay.swift */,
 				C0906A3B2B7C9395001D71FB /* Stacks.swift */,
+				C0906A3D2B7C9770001D71FB /* Padding.swift */,
 			);
 			path = Courses;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				C0906A012B7C79BB001D71FB /* SwiftUI_Basic_Part1App.swift in Sources */,
 				C0906A2D2B7C7BBB001D71FB /* Shapes.swift in Sources */,
 				C0906A322B7C8865001D71FB /* Gradients.swift in Sources */,
+				C0906A3E2B7C9770001D71FB /* Padding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

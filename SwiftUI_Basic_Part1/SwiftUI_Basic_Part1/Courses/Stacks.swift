@@ -61,6 +61,9 @@ struct Stacks: View {
                 Image(systemName: "ellipsis")
                     .foregroundStyle(.gray)
             }
+            .background(.blue)
+            .padding(.horizontal, 20)
+            .background(.red)
             Image("pretty")
                 .resizable()
                 .frame(maxHeight: 400)
