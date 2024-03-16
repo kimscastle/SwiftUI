@@ -14,6 +14,12 @@
 		C07774DC2BA54E36007A057D /* SwiftUI_Basic_with_iOS17Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07774DB2BA54E36007A057D /* SwiftUI_Basic_with_iOS17Tests.swift */; };
 		C07774E62BA54E36007A057D /* SwiftUI_Basic_with_iOS17UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07774E52BA54E36007A057D /* SwiftUI_Basic_with_iOS17UITests.swift */; };
 		C07774E82BA54E36007A057D /* SwiftUI_Basic_with_iOS17UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07774E72BA54E36007A057D /* SwiftUI_Basic_with_iOS17UITestsLaunchTests.swift */; };
+		C0B914E72BA58179005DDA5F /* ExtractViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B914E62BA58179005DDA5F /* ExtractViewBasic.swift */; };
+		C0B914E92BA5828B005DDA5F /* ExtractSubviewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B914E82BA5828B005DDA5F /* ExtractSubviewBasic.swift */; };
+		C0B914EC2BA582A0005DDA5F /* ItemBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B914EB2BA582A0005DDA5F /* ItemBasic.swift */; };
+		C0B914EE2BA58624005DDA5F /* BindingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B914ED2BA58624005DDA5F /* BindingBasic.swift */; };
+		C0F31B9B2BA55D7A0053FFCE /* LazyGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F31B9A2BA55D7A0053FFCE /* LazyGridBasic.swift */; };
+		C0F31B9D2BA56E8B0053FFCE /* IgnoreSafeAreaBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F31B9C2BA56E8B0053FFCE /* IgnoreSafeAreaBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		C07774E12BA54E36007A057D /* SwiftUI_Basic_with_iOS17UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_Basic_with_iOS17UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07774E52BA54E36007A057D /* SwiftUI_Basic_with_iOS17UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Basic_with_iOS17UITests.swift; sourceTree = "<group>"; };
 		C07774E72BA54E36007A057D /* SwiftUI_Basic_with_iOS17UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Basic_with_iOS17UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C0B914E62BA58179005DDA5F /* ExtractViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractViewBasic.swift; sourceTree = "<group>"; };
+		C0B914E82BA5828B005DDA5F /* ExtractSubviewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewBasic.swift; sourceTree = "<group>"; };
+		C0B914EB2BA582A0005DDA5F /* ItemBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBasic.swift; sourceTree = "<group>"; };
+		C0B914ED2BA58624005DDA5F /* BindingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBasic.swift; sourceTree = "<group>"; };
+		C0F31B9A2BA55D7A0053FFCE /* LazyGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridBasic.swift; sourceTree = "<group>"; };
+		C0F31B9C2BA56E8B0053FFCE /* IgnoreSafeAreaBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +106,16 @@
 		C07774C92BA54E35007A057D /* SwiftUI_Basic_with_iOS17 */ = {
 			isa = PBXGroup;
 			children = (
+				C0B914EA2BA5828F005DDA5F /* Component */,
 				C07774CA2BA54E35007A057D /* SwiftUI_Basic_with_iOS17App.swift */,
 				C07774CC2BA54E35007A057D /* ContentView.swift */,
 				C07774CE2BA54E36007A057D /* Assets.xcassets */,
 				C07774D02BA54E36007A057D /* Preview Content */,
+				C0F31B9A2BA55D7A0053FFCE /* LazyGridBasic.swift */,
+				C0F31B9C2BA56E8B0053FFCE /* IgnoreSafeAreaBasic.swift */,
+				C0B914E62BA58179005DDA5F /* ExtractViewBasic.swift */,
+				C0B914E82BA5828B005DDA5F /* ExtractSubviewBasic.swift */,
+				C0B914ED2BA58624005DDA5F /* BindingBasic.swift */,
 			);
 			path = SwiftUI_Basic_with_iOS17;
 			sourceTree = "<group>";
@@ -125,6 +143,14 @@
 				C07774E72BA54E36007A057D /* SwiftUI_Basic_with_iOS17UITestsLaunchTests.swift */,
 			);
 			path = SwiftUI_Basic_with_iOS17UITests;
+			sourceTree = "<group>";
+		};
+		C0B914EA2BA5828F005DDA5F /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				C0B914EB2BA582A0005DDA5F /* ItemBasic.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0B914EC2BA582A0005DDA5F /* ItemBasic.swift in Sources */,
 				C07774CD2BA54E35007A057D /* ContentView.swift in Sources */,
+				C0B914EE2BA58624005DDA5F /* BindingBasic.swift in Sources */,
+				C0F31B9B2BA55D7A0053FFCE /* LazyGridBasic.swift in Sources */,
+				C0F31B9D2BA56E8B0053FFCE /* IgnoreSafeAreaBasic.swift in Sources */,
+				C0B914E72BA58179005DDA5F /* ExtractViewBasic.swift in Sources */,
+				C0B914E92BA5828B005DDA5F /* ExtractSubviewBasic.swift in Sources */,
 				C07774CB2BA54E35007A057D /* SwiftUI_Basic_with_iOS17App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

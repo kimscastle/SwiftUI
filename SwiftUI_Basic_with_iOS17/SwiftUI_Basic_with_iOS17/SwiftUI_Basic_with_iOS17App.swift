@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_Basic_with_iOS17App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            IgnoreSafeAreaBasic()
         }
     }
 }

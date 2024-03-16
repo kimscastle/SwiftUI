@@ -8,20 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-    var data: [String] = ["Hi", "Hello", "Hey everyone"]
-    
     var body: some View {
-        VStack {
-            ForEach(0..<10) { index in
-                HStack {
-                    Circle()
-                        .frame(width: 20, height: 20)
-                    Text("index : \(index)")
-                }
-            }
+        HStack {
+            Rectangle()
+                .fill(Color.red)
+                .frame(width: 150, height: 120)
+            
+            Circle()
+                .fill(Color.blue)
+                .frame(width: 50, height: 50)
+                .offset(x: 50, y: 50) // Circle을 오른쪽 아래로 이동시킴
+            Circle()
+                .fill(Color.blue)
+                .frame(width: 50, height: 50)
+                .offset(x: 50, y: 50) // Circle을 오른쪽 아래로 이동시킴
+            Circle()
+                .fill(Color.blue)
+                .frame(width: 50, height: 50)
+                .offset(x: 50, y: 50) // Circle을 오른쪽 아래로 이동시킴
+            Circle()
+                .fill(Color.blue)
+                .frame(width: 50, height: 50)
+                .offset(x: 50, y: 50) // Circle을 오른쪽 아래로 이동시킴
+            
         }
-        .padding()
     }
 }
 
