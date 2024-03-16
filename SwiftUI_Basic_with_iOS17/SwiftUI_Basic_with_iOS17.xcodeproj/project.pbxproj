@@ -18,6 +18,8 @@
 		C0B914E92BA5828B005DDA5F /* ExtractSubviewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B914E82BA5828B005DDA5F /* ExtractSubviewBasic.swift */; };
 		C0B914EC2BA582A0005DDA5F /* ItemBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B914EB2BA582A0005DDA5F /* ItemBasic.swift */; };
 		C0B914EE2BA58624005DDA5F /* BindingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B914ED2BA58624005DDA5F /* BindingBasic.swift */; };
+		C0B914F02BA59002005DDA5F /* AnimationBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B914EF2BA59002005DDA5F /* AnimationBasic.swift */; };
+		C0B914F22BA59352005DDA5F /* TransitionBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B914F12BA59352005DDA5F /* TransitionBasic.swift */; };
 		C0F31B9B2BA55D7A0053FFCE /* LazyGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F31B9A2BA55D7A0053FFCE /* LazyGridBasic.swift */; };
 		C0F31B9D2BA56E8B0053FFCE /* IgnoreSafeAreaBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F31B9C2BA56E8B0053FFCE /* IgnoreSafeAreaBasic.swift */; };
 /* End PBXBuildFile section */
@@ -54,6 +56,8 @@
 		C0B914E82BA5828B005DDA5F /* ExtractSubviewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewBasic.swift; sourceTree = "<group>"; };
 		C0B914EB2BA582A0005DDA5F /* ItemBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBasic.swift; sourceTree = "<group>"; };
 		C0B914ED2BA58624005DDA5F /* BindingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBasic.swift; sourceTree = "<group>"; };
+		C0B914EF2BA59002005DDA5F /* AnimationBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic.swift; sourceTree = "<group>"; };
+		C0B914F12BA59352005DDA5F /* TransitionBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBasic.swift; sourceTree = "<group>"; };
 		C0F31B9A2BA55D7A0053FFCE /* LazyGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridBasic.swift; sourceTree = "<group>"; };
 		C0F31B9C2BA56E8B0053FFCE /* IgnoreSafeAreaBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +120,8 @@
 				C0B914E62BA58179005DDA5F /* ExtractViewBasic.swift */,
 				C0B914E82BA5828B005DDA5F /* ExtractSubviewBasic.swift */,
 				C0B914ED2BA58624005DDA5F /* BindingBasic.swift */,
+				C0B914EF2BA59002005DDA5F /* AnimationBasic.swift */,
+				C0B914F12BA59352005DDA5F /* TransitionBasic.swift */,
 			);
 			path = SwiftUI_Basic_with_iOS17;
 			sourceTree = "<group>";
@@ -288,9 +294,11 @@
 				C0B914EE2BA58624005DDA5F /* BindingBasic.swift in Sources */,
 				C0F31B9B2BA55D7A0053FFCE /* LazyGridBasic.swift in Sources */,
 				C0F31B9D2BA56E8B0053FFCE /* IgnoreSafeAreaBasic.swift in Sources */,
+				C0B914F22BA59352005DDA5F /* TransitionBasic.swift in Sources */,
 				C0B914E72BA58179005DDA5F /* ExtractViewBasic.swift in Sources */,
 				C0B914E92BA5828B005DDA5F /* ExtractSubviewBasic.swift in Sources */,
 				C07774CB2BA54E35007A057D /* SwiftUI_Basic_with_iOS17App.swift in Sources */,
+				C0B914F02BA59002005DDA5F /* AnimationBasic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
