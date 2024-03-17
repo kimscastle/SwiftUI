@@ -20,6 +20,8 @@
 		C0B914EE2BA58624005DDA5F /* BindingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B914ED2BA58624005DDA5F /* BindingBasic.swift */; };
 		C0B914F02BA59002005DDA5F /* AnimationBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B914EF2BA59002005DDA5F /* AnimationBasic.swift */; };
 		C0B914F22BA59352005DDA5F /* TransitionBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B914F12BA59352005DDA5F /* TransitionBasic.swift */; };
+		C0B914F42BA594C4005DDA5F /* SheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B914F32BA594C4005DDA5F /* SheetBasic.swift */; };
+		C0B914F72BA594E4005DDA5F /* SheetBasic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B914F62BA594E4005DDA5F /* SheetBasic2.swift */; };
 		C0F31B9B2BA55D7A0053FFCE /* LazyGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F31B9A2BA55D7A0053FFCE /* LazyGridBasic.swift */; };
 		C0F31B9D2BA56E8B0053FFCE /* IgnoreSafeAreaBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F31B9C2BA56E8B0053FFCE /* IgnoreSafeAreaBasic.swift */; };
 /* End PBXBuildFile section */
@@ -58,6 +60,8 @@
 		C0B914ED2BA58624005DDA5F /* BindingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBasic.swift; sourceTree = "<group>"; };
 		C0B914EF2BA59002005DDA5F /* AnimationBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic.swift; sourceTree = "<group>"; };
 		C0B914F12BA59352005DDA5F /* TransitionBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBasic.swift; sourceTree = "<group>"; };
+		C0B914F32BA594C4005DDA5F /* SheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBasic.swift; sourceTree = "<group>"; };
+		C0B914F62BA594E4005DDA5F /* SheetBasic2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBasic2.swift; sourceTree = "<group>"; };
 		C0F31B9A2BA55D7A0053FFCE /* LazyGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridBasic.swift; sourceTree = "<group>"; };
 		C0F31B9C2BA56E8B0053FFCE /* IgnoreSafeAreaBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +114,7 @@
 		C07774C92BA54E35007A057D /* SwiftUI_Basic_with_iOS17 */ = {
 			isa = PBXGroup;
 			children = (
+				C0B914F52BA594D5005DDA5F /* Sheet */,
 				C0B914EA2BA5828F005DDA5F /* Component */,
 				C07774CA2BA54E35007A057D /* SwiftUI_Basic_with_iOS17App.swift */,
 				C07774CC2BA54E35007A057D /* ContentView.swift */,
@@ -157,6 +162,15 @@
 				C0B914EB2BA582A0005DDA5F /* ItemBasic.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		C0B914F52BA594D5005DDA5F /* Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				C0B914F32BA594C4005DDA5F /* SheetBasic.swift */,
+				C0B914F62BA594E4005DDA5F /* SheetBasic2.swift */,
+			);
+			path = Sheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,9 +304,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0B914EC2BA582A0005DDA5F /* ItemBasic.swift in Sources */,
+				C0B914F42BA594C4005DDA5F /* SheetBasic.swift in Sources */,
 				C07774CD2BA54E35007A057D /* ContentView.swift in Sources */,
 				C0B914EE2BA58624005DDA5F /* BindingBasic.swift in Sources */,
 				C0F31B9B2BA55D7A0053FFCE /* LazyGridBasic.swift in Sources */,
+				C0B914F72BA594E4005DDA5F /* SheetBasic2.swift in Sources */,
 				C0F31B9D2BA56E8B0053FFCE /* IgnoreSafeAreaBasic.swift in Sources */,
 				C0B914F22BA59352005DDA5F /* TransitionBasic.swift in Sources */,
 				C0B914E72BA58179005DDA5F /* ExtractViewBasic.swift in Sources */,
