@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C04FEE352BA6B08B0087BDF7 /* ListBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04FEE342BA6B08B0087BDF7 /* ListBasic.swift */; };
+		C04FEE372BA6B7440087BDF7 /* AlertBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04FEE362BA6B7440087BDF7 /* AlertBasic.swift */; };
+		C04FEE392BA6C1C30087BDF7 /* ContextMenuBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04FEE382BA6C1C30087BDF7 /* ContextMenuBasic.swift */; };
+		C04FEE3B2BA6C54B0087BDF7 /* ActionSheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04FEE3A2BA6C54B0087BDF7 /* ActionSheetBasic.swift */; };
+		C04FEE3D2BA6C8490087BDF7 /* TextFieldBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04FEE3C2BA6C8490087BDF7 /* TextFieldBasic.swift */; };
+		C04FEE3F2BA6CDF90087BDF7 /* PickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04FEE3E2BA6CDF90087BDF7 /* PickerBasic.swift */; };
+		C04FEE412BA6D0E40087BDF7 /* ColorPickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04FEE402BA6D0E30087BDF7 /* ColorPickerBasic.swift */; };
+		C04FEE432BA6D3940087BDF7 /* DatePickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04FEE422BA6D3940087BDF7 /* DatePickerBasic.swift */; };
+		C04FEE452BA6D7B40087BDF7 /* StepperBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04FEE442BA6D7B40087BDF7 /* StepperBasic.swift */; };
+		C04FEE472BA6D9FC0087BDF7 /* SliderBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04FEE462BA6D9FC0087BDF7 /* SliderBasic.swift */; };
+		C04FEE492BA6DC3D0087BDF7 /* TabViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04FEE482BA6DC3D0087BDF7 /* TabViewBasic.swift */; };
 		C07774CB2BA54E35007A057D /* SwiftUI_Basic_with_iOS17App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07774CA2BA54E35007A057D /* SwiftUI_Basic_with_iOS17App.swift */; };
 		C07774CD2BA54E35007A057D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07774CC2BA54E35007A057D /* ContentView.swift */; };
 		C07774CF2BA54E36007A057D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07774CE2BA54E36007A057D /* Assets.xcassets */; };
@@ -44,6 +55,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C04FEE342BA6B08B0087BDF7 /* ListBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBasic.swift; sourceTree = "<group>"; };
+		C04FEE362BA6B7440087BDF7 /* AlertBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBasic.swift; sourceTree = "<group>"; };
+		C04FEE382BA6C1C30087BDF7 /* ContextMenuBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBasic.swift; sourceTree = "<group>"; };
+		C04FEE3A2BA6C54B0087BDF7 /* ActionSheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBasic.swift; sourceTree = "<group>"; };
+		C04FEE3C2BA6C8490087BDF7 /* TextFieldBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBasic.swift; sourceTree = "<group>"; };
+		C04FEE3E2BA6CDF90087BDF7 /* PickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBasic.swift; sourceTree = "<group>"; };
+		C04FEE402BA6D0E30087BDF7 /* ColorPickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerBasic.swift; sourceTree = "<group>"; };
+		C04FEE422BA6D3940087BDF7 /* DatePickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerBasic.swift; sourceTree = "<group>"; };
+		C04FEE442BA6D7B40087BDF7 /* StepperBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperBasic.swift; sourceTree = "<group>"; };
+		C04FEE462BA6D9FC0087BDF7 /* SliderBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBasic.swift; sourceTree = "<group>"; };
+		C04FEE482BA6DC3D0087BDF7 /* TabViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBasic.swift; sourceTree = "<group>"; };
 		C07774C72BA54E35007A057D /* SwiftUI_Basic_with_iOS17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Basic_with_iOS17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07774CA2BA54E35007A057D /* SwiftUI_Basic_with_iOS17App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Basic_with_iOS17App.swift; sourceTree = "<group>"; };
 		C07774CC2BA54E35007A057D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -127,6 +149,17 @@
 				C0B914ED2BA58624005DDA5F /* BindingBasic.swift */,
 				C0B914EF2BA59002005DDA5F /* AnimationBasic.swift */,
 				C0B914F12BA59352005DDA5F /* TransitionBasic.swift */,
+				C04FEE342BA6B08B0087BDF7 /* ListBasic.swift */,
+				C04FEE362BA6B7440087BDF7 /* AlertBasic.swift */,
+				C04FEE382BA6C1C30087BDF7 /* ContextMenuBasic.swift */,
+				C04FEE3A2BA6C54B0087BDF7 /* ActionSheetBasic.swift */,
+				C04FEE3C2BA6C8490087BDF7 /* TextFieldBasic.swift */,
+				C04FEE3E2BA6CDF90087BDF7 /* PickerBasic.swift */,
+				C04FEE402BA6D0E30087BDF7 /* ColorPickerBasic.swift */,
+				C04FEE422BA6D3940087BDF7 /* DatePickerBasic.swift */,
+				C04FEE442BA6D7B40087BDF7 /* StepperBasic.swift */,
+				C04FEE462BA6D9FC0087BDF7 /* SliderBasic.swift */,
+				C04FEE482BA6DC3D0087BDF7 /* TabViewBasic.swift */,
 			);
 			path = SwiftUI_Basic_with_iOS17;
 			sourceTree = "<group>";
@@ -259,6 +292,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = C07774BE2BA54E35007A057D;
 			productRefGroup = C07774C82BA54E35007A057D /* Products */;
@@ -305,15 +339,26 @@
 			files = (
 				C0B914EC2BA582A0005DDA5F /* ItemBasic.swift in Sources */,
 				C0B914F42BA594C4005DDA5F /* SheetBasic.swift in Sources */,
+				C04FEE452BA6D7B40087BDF7 /* StepperBasic.swift in Sources */,
 				C07774CD2BA54E35007A057D /* ContentView.swift in Sources */,
+				C04FEE3D2BA6C8490087BDF7 /* TextFieldBasic.swift in Sources */,
+				C04FEE392BA6C1C30087BDF7 /* ContextMenuBasic.swift in Sources */,
+				C04FEE372BA6B7440087BDF7 /* AlertBasic.swift in Sources */,
+				C04FEE432BA6D3940087BDF7 /* DatePickerBasic.swift in Sources */,
 				C0B914EE2BA58624005DDA5F /* BindingBasic.swift in Sources */,
 				C0F31B9B2BA55D7A0053FFCE /* LazyGridBasic.swift in Sources */,
 				C0B914F72BA594E4005DDA5F /* SheetBasic2.swift in Sources */,
+				C04FEE492BA6DC3D0087BDF7 /* TabViewBasic.swift in Sources */,
 				C0F31B9D2BA56E8B0053FFCE /* IgnoreSafeAreaBasic.swift in Sources */,
+				C04FEE3F2BA6CDF90087BDF7 /* PickerBasic.swift in Sources */,
+				C04FEE472BA6D9FC0087BDF7 /* SliderBasic.swift in Sources */,
 				C0B914F22BA59352005DDA5F /* TransitionBasic.swift in Sources */,
+				C04FEE412BA6D0E40087BDF7 /* ColorPickerBasic.swift in Sources */,
+				C04FEE3B2BA6C54B0087BDF7 /* ActionSheetBasic.swift in Sources */,
 				C0B914E72BA58179005DDA5F /* ExtractViewBasic.swift in Sources */,
 				C0B914E92BA5828B005DDA5F /* ExtractSubviewBasic.swift in Sources */,
 				C07774CB2BA54E35007A057D /* SwiftUI_Basic_with_iOS17App.swift in Sources */,
+				C04FEE352BA6B08B0087BDF7 /* ListBasic.swift in Sources */,
 				C0B914F02BA59002005DDA5F /* AnimationBasic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
