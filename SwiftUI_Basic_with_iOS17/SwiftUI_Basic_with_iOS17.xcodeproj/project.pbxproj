@@ -113,6 +113,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C045F80A2BAAB3F400C3BC82 /* KoreaAnimals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KoreaAnimals;
+			sourceTree = "<group>";
+		};
 		C07774BE2BA54E35007A057D = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +143,7 @@
 		C07774C92BA54E35007A057D /* SwiftUI_Basic_with_iOS17 */ = {
 			isa = PBXGroup;
 			children = (
+				C045F80A2BAAB3F400C3BC82 /* KoreaAnimals */,
 				C0B914F52BA594D5005DDA5F /* Sheet */,
 				C0B914EA2BA5828F005DDA5F /* Component */,
 				C07774CA2BA54E35007A057D /* SwiftUI_Basic_with_iOS17App.swift */,
