@@ -36,6 +36,10 @@
 		C045F8752BAD006800C3BC82 /* DetailGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C045F8742BAD006800C3BC82 /* DetailGallery.swift */; };
 		C045F8772BAD027200C3BC82 /* DetailFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C045F8762BAD027200C3BC82 /* DetailFact.swift */; };
 		C045F8792BAD03B900C3BC82 /* ExternalWebLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C045F8782BAD03B900C3BC82 /* ExternalWebLink.swift */; };
+		C045F87B2BAD068600C3BC82 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = C045F87A2BAD068600C3BC82 /* Video.swift */; };
+		C045F87D2BAD088800C3BC82 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C045F87C2BAD088800C3BC82 /* VideoListView.swift */; };
+		C045F87F2BAD09D600C3BC82 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C045F87E2BAD09D600C3BC82 /* VideoPlayerView.swift */; };
+		C045F8812BAD0A9100C3BC82 /* YoutubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C045F8802BAD0A9100C3BC82 /* YoutubeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +92,10 @@
 		C045F8742BAD006800C3BC82 /* DetailGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailGallery.swift; sourceTree = "<group>"; };
 		C045F8762BAD027200C3BC82 /* DetailFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFact.swift; sourceTree = "<group>"; };
 		C045F8782BAD03B900C3BC82 /* ExternalWebLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLink.swift; sourceTree = "<group>"; };
+		C045F87A2BAD068600C3BC82 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		C045F87C2BAD088800C3BC82 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		C045F87E2BAD09D600C3BC82 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		C045F8802BAD0A9100C3BC82 /* YoutubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +228,7 @@
 			children = (
 				C045F8642BAABE8B00C3BC82 /* Animal.swift */,
 				C045F86A2BACF39500C3BC82 /* CoverImage.swift */,
+				C045F87A2BAD068600C3BC82 /* Video.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -253,6 +262,9 @@
 			isa = PBXGroup;
 			children = (
 				C045F85E2BAABAFD00C3BC82 /* VideoView.swift */,
+				C045F87C2BAD088800C3BC82 /* VideoListView.swift */,
+				C045F87E2BAD09D600C3BC82 /* VideoPlayerView.swift */,
+				C045F8802BAD0A9100C3BC82 /* YoutubeView.swift */,
 			);
 			path = VideoView;
 			sourceTree = "<group>";
@@ -428,8 +440,11 @@
 				C045F81A2BAAB41900C3BC82 /* ContentView.swift in Sources */,
 				C045F8772BAD027200C3BC82 /* DetailFact.swift in Sources */,
 				C045F8672BAABF4900C3BC82 /* AnimalViewModel.swift in Sources */,
+				C045F8812BAD0A9100C3BC82 /* YoutubeView.swift in Sources */,
 				C045F86B2BACF39500C3BC82 /* CoverImage.swift in Sources */,
+				C045F87B2BAD068600C3BC82 /* Video.swift in Sources */,
 				C045F8532BAAB6DB00C3BC82 /* View+.swift in Sources */,
+				C045F87D2BAD088800C3BC82 /* VideoListView.swift in Sources */,
 				C045F86D2BACF6CB00C3BC82 /* AnimalListView.swift in Sources */,
 				C045F8182BAAB41900C3BC82 /* AnimalKoreaApp.swift in Sources */,
 				C045F8572BAAB79700C3BC82 /* Bundle+.swift in Sources */,
@@ -443,6 +458,7 @@
 				C045F8612BAABB0700C3BC82 /* GalleryView.swift in Sources */,
 				C045F8692BACF35500C3BC82 /* CoverView.swift in Sources */,
 				C045F8592BAAB88B00C3BC82 /* SplashView.swift in Sources */,
+				C045F87F2BAD09D600C3BC82 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

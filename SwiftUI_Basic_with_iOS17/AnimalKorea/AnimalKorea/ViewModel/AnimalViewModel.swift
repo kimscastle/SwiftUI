@@ -10,11 +10,13 @@ import SwiftUI
 final class AnimalViewModel: ObservableObject {
     @Published var animals: [Animal] = []
     @Published var coverImages: [CoverImage] = []
+    @Published var videos: [Video] = []
     @Published var isLoading = false
     
     init() {
         self.getAnimals()
         self.getCoverImages()
+        self.getVideos()
     }
     
     func getAnimals() {
@@ -23,6 +25,10 @@ final class AnimalViewModel: ObservableObject {
     
     func getCoverImages() {
         self.coverImages = Bundle.main.decode("covers.json")
+    }
+    
+    func getVideos() {
+        self.videos = Bundle.main.decode("videos.json")
     }
     
 }

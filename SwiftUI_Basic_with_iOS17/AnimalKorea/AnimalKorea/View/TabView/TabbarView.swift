@@ -19,7 +19,7 @@ struct TabbarView: View {
                     Text("홈")
                 }
 
-            VideoView()
+            VideoView(viewModel: viewModel)
                 .tabItem {
                     Image(systemName: "play.rectangle")
                     Text("비디오")
