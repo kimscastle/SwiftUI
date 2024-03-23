@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C045F8852BAE880D00C3BC82 /* AsyncImageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C045F8842BAE880D00C3BC82 /* AsyncImageBasic.swift */; };
+		C04D354F2BAE8C0800CBF286 /* BackgroundMaterialBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04D354E2BAE8C0800CBF286 /* BackgroundMaterialBasic.swift */; };
 		C04FEE352BA6B08B0087BDF7 /* ListBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04FEE342BA6B08B0087BDF7 /* ListBasic.swift */; };
 		C04FEE372BA6B7440087BDF7 /* AlertBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04FEE362BA6B7440087BDF7 /* AlertBasic.swift */; };
 		C04FEE392BA6C1C30087BDF7 /* ContextMenuBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04FEE382BA6C1C30087BDF7 /* ContextMenuBasic.swift */; };
@@ -55,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C045F8842BAE880D00C3BC82 /* AsyncImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageBasic.swift; sourceTree = "<group>"; };
+		C04D354E2BAE8C0800CBF286 /* BackgroundMaterialBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialBasic.swift; sourceTree = "<group>"; };
 		C04FEE342BA6B08B0087BDF7 /* ListBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBasic.swift; sourceTree = "<group>"; };
 		C04FEE362BA6B7440087BDF7 /* AlertBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBasic.swift; sourceTree = "<group>"; };
 		C04FEE382BA6C1C30087BDF7 /* ContextMenuBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBasic.swift; sourceTree = "<group>"; };
@@ -151,8 +155,17 @@
 		C045F8832BAE87C500C3BC82 /* iOS15 */ = {
 			isa = PBXGroup;
 			children = (
+				C045F8842BAE880D00C3BC82 /* AsyncImageBasic.swift */,
+				C04D354E2BAE8C0800CBF286 /* BackgroundMaterialBasic.swift */,
 			);
 			path = iOS15;
+			sourceTree = "<group>";
+		};
+		C04D35502BAE902F00CBF286 /* iOS16 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iOS16;
 			sourceTree = "<group>";
 		};
 		C07774BE2BA54E35007A057D = {
@@ -178,6 +191,7 @@
 		C07774C92BA54E35007A057D /* SwiftUI_Basic_with_iOS17 */ = {
 			isa = PBXGroup;
 			children = (
+				C04D35502BAE902F00CBF286 /* iOS16 */,
 				C045F8832BAE87C500C3BC82 /* iOS15 */,
 				C045F8822BAE879C00C3BC82 /* iOS14 */,
 				C07774CA2BA54E35007A057D /* SwiftUI_Basic_with_iOS17App.swift */,
@@ -364,6 +378,7 @@
 				C0B914EC2BA582A0005DDA5F /* ItemBasic.swift in Sources */,
 				C0B914F42BA594C4005DDA5F /* SheetBasic.swift in Sources */,
 				C04FEE452BA6D7B40087BDF7 /* StepperBasic.swift in Sources */,
+				C045F8852BAE880D00C3BC82 /* AsyncImageBasic.swift in Sources */,
 				C07774CD2BA54E35007A057D /* ContentView.swift in Sources */,
 				C04FEE3D2BA6C8490087BDF7 /* TextFieldBasic.swift in Sources */,
 				C04FEE392BA6C1C30087BDF7 /* ContextMenuBasic.swift in Sources */,
@@ -383,6 +398,7 @@
 				C0B914E92BA5828B005DDA5F /* ExtractSubviewBasic.swift in Sources */,
 				C07774CB2BA54E35007A057D /* SwiftUI_Basic_with_iOS17App.swift in Sources */,
 				C04FEE352BA6B08B0087BDF7 /* ListBasic.swift in Sources */,
+				C04D354F2BAE8C0800CBF286 /* BackgroundMaterialBasic.swift in Sources */,
 				C0B914F02BA59002005DDA5F /* AnimationBasic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
