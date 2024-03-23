@@ -24,7 +24,7 @@ struct TabbarView: View {
                     Image(systemName: "play.rectangle")
                     Text("비디오")
                 }
-            GalleryView()
+            GalleryView(viewModel: viewModel)
                 .tabItem {
                     Image(systemName: "photo")
                     Text("갤러리")
