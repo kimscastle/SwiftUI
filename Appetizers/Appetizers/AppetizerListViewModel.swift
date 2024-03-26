@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@MainActor
 final class AppetizerListViewModel: ObservableObject {
     @Published var appetizers: [Appetizer] = []
     @Published var alertItem: AlertItem?
@@ -16,23 +17,25 @@ final class AppetizerListViewModel: ObservableObject {
     
     func getAppetizers() {
         self.isLoading = true
-        NetworkManger.shared.getAppetizers { [weak self] result in
-            DispatchQueue.main.async {
-                self?.isLoading = false
-                switch result {
-                case .success(let appetizers):
-                    self?.appetizers = appetizers
-                case .failure(let failure):
-                    switch failure {
+        Task {
+            do {
+                self.appetizers = try await NetworkManger.shared.getAppetizers()
+                self.isLoading = false
+            } catch {
+                if let apiError = error as? APIError {
+                    switch apiError {
                     case .invalidData:
-                        self?.alertItem = AlertContext.invalidResponse
+                        alertItem = AlertContext.invalidResponse
                     case .invalidURL:
-                        self?.alertItem = AlertContext.invalidURL
+                        alertItem = AlertContext.invalidURL
                     case .unableToComplete:
-                        self?.alertItem = AlertContext.unableToComplete
+                        alertItem = AlertContext.unableToComplete
                     case .invalidResponse:
-                        self?.alertItem = AlertContext.invalidResponse
+                        alertItem = AlertContext.invalidResponse
                     }
+                } else {
+                    alertItem = AlertContext.invalidResponse
+                    isLoading = false
                 }
             }
         }
