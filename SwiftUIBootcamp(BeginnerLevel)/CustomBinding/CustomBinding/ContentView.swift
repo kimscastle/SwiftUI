@@ -7,40 +7,32 @@
 
 import SwiftUI
 
-
-extension Binding where Value == Bool {
-    init(value: Binding<String?>) {
-        self.init {
-            value.wrappedValue != nil
-        } set: { newValue in
-            if !newValue {
-                value.wrappedValue = nil
-            } else {
-                print("✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅")
-            }
+struct ContentView: View {
+    @State private var showAlert = false
+    
+    var body: some View {
+        Button("Show Alert") {
+            self.showAlert = true
+        }
+        .alert(isPresented: $showAlert) {
+            Alert(
+                title: Text("Custom Alert"),
+                content: AlertView(),
+                dismissButton: .default(Text("OK"))
+            )
         }
     }
 }
 
-struct ContentView: View {
-    
-    @State private var alertMessage: String? = nil
-    
+struct AlertView: View {
     var body: some View {
         VStack {
-            Button {
-                // Action
-                alertMessage = "알림등장"
-            } label: {
-                Text("알림버튼입니다")
-            }
-            .alert("알림title", isPresented: .init(value: $alertMessage)) {
-                Button("OK버튼") {
-                     
-                }
-            }
+            Image(systemName: "star")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 50, height: 50)
+            Text("This is a custom alert with an image!")
         }
-        .padding()
     }
 }
 
