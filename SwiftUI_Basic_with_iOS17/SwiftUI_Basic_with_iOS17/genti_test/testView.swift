@@ -124,6 +124,8 @@ struct testView: View {
                         .frame(height: 1)
                         
                     TabBarView(currentTab: $currentTab)
+                        .padding(.horizontal, 20)
+                        .frame(height: 50)
                     
                     TabView(selection: self.$currentTab) {
                         TaskView(number: 0).tag(0)
@@ -143,18 +145,20 @@ struct testView: View {
 
 struct TabBarView: View {
     @Binding var currentTab: Int
-//    @Namespace var namespace
     var tabBarOptions: [String] = ["작업실1", "작업실2", "작업실2"]
     var body: some View {
-        HStack(spacing: 20) {
-            ForEach(Array(zip(self.tabBarOptions.indices, self.tabBarOptions)), id: \.0) { index, name in
-                TabBarItem(title: name, currentTab: $currentTab, tab: index)
-                    .padding(.horizontal, 20)
-            }
-        } //:HSTACK
-        .frame(maxWidth: .infinity)
-        .frame(height: 50)
-        .background(.white)
+        GeometryReader(content: { geometry in
+            HStack(spacing: 0) {
+                ForEach(Array(zip(self.tabBarOptions.indices, self.tabBarOptions)), id: \.0) { index, name in
+                    TabBarItem(title: name, currentTab: $currentTab, tab: index)
+                        .frame(width: geometry.size.width/3, height: geometry.size.height)
+                        
+                }
+            } //:HSTACK
+            .background(.white)
+        })
+        
+
     }
 }
 
@@ -188,4 +192,17 @@ struct TabBarItem: View {
 
 #Preview {
     testView()
+}
+
+
+extension Binding where Value == Bool {
+    init(value: Binding<String?>) {
+        self.init {
+            value.wrappedValue != nil
+        } set: { newValue in
+            if !newValue {
+                value.wrappedValue = nil
+            }
+        }
+    }
 }

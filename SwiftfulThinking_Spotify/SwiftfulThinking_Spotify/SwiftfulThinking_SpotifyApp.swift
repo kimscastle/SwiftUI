@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftfulThinking_SpotifyApp: App {
     var body: some Scene {
         WindowGroup {
-            ImageLoaderView()
+            SpotifyHomeView()
         }
     }
 }
