@@ -12,6 +12,7 @@ struct SpotifyHomeView: View {
     @State private var currentUser: User? = nil
     @State private var selectedCategory: Category? = nil
     @State private var products: [Product] = []
+    @State private var productRow: [ProductRow] = []
     
     var body: some View {
         ZStack {
@@ -24,14 +25,17 @@ struct SpotifyHomeView: View {
                     Section {
                         VStack(spacing: 16) {
                             recentSection
+                                .padding(.horizontal, 16)
                             
                             if let product = products.first {
                                 newReleaseSection(product: product)
+                                    .padding(.horizontal, 16)
                             }
                             
-
+                            listRow
+                            
                         } //:VSTACK
-                        .padding(.horizontal, 16)
+
                     } header: {
                         header
                     }
@@ -52,6 +56,13 @@ struct SpotifyHomeView: View {
         do {
             currentUser = try await DatabaseHelper().getUsers().first
             products = try await Array(DatabaseHelper().getProducts().prefix(8))
+            
+            var rows: [ProductRow] = []
+            let allBrands = Set(products.map{ $0.brand })
+            for brand in allBrands {
+                rows.append(.init(title: brand.capitalized, products: products))
+            }
+            productRow = rows
         } catch {
             
         }
@@ -64,7 +75,6 @@ private extension SpotifyHomeView {
             ZStack {
                 if let currentUser{
                     ImageLoaderView(urlString: currentUser.image)
-
                         .background(.spotifyWhite)
                         .clipShape(Circle())
                         .onTapGesture {
@@ -98,9 +108,18 @@ private extension SpotifyHomeView {
     }
     
     var recentSection: some View {
-        LazyVGrid(columns: [.init(.flexible()), .init(.flexible())], alignment: .center, spacing: 10, content: {
+        LazyVGrid(columns: [.init(.flexible()), .init(.flexible())],
+                  alignment: .center,
+                  spacing: 10,
+                  content: {
             ForEach(products) { product in
-                SpotifyRecentCell(imageName: product.firstImage, title: product.title)
+                SpotifyRecentCell(
+                    imageName: product.firstImage,
+                    title: product.title
+                )
+                .asButton(.press) {
+                    
+                }
             }
         })
     }
@@ -116,6 +135,32 @@ private extension SpotifyHomeView {
             } onPlayPressed: {
                 print("플레이버튼눌림")
             }
+    }
+    
+    var listRow: some View {
+        ForEach(productRow) { row in
+            VStack(spacing: 8) {
+                Text(row.title)
+                    .font(.title)
+                    .fontWeight(.semibold)
+                    .foregroundStyle(.spotifyWhite)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.horizontal, 16)
+                
+                ScrollView(.horizontal) {
+                    HStack(alignment: .top, spacing: 16) {
+                        ForEach(row.products) { product in
+                            ImageTitleRowCell(imageSize: 120, imageName: product.firstImage, title: product.title)
+                                .asButton(.press) {
+                                    
+                                }
+                        }
+                    }
+                    .padding(.horizontal, 16)
+                }
+                .scrollIndicators(.hidden)
+            }
+        }
     }
 }
 
