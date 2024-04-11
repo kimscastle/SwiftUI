@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C073BCB62BC7D09900130BAD /* SwiftfulThinking_BumbleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BCB52BC7D09900130BAD /* SwiftfulThinking_BumbleApp.swift */; };
+		C073BCB82BC7D09900130BAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BCB72BC7D09900130BAD /* ContentView.swift */; };
+		C073BCBA2BC7D09B00130BAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C073BCB92BC7D09B00130BAD /* Assets.xcassets */; };
+		C073BCBD2BC7D09B00130BAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C073BCBC2BC7D09B00130BAD /* Preview Assets.xcassets */; };
+		C073BCC72BC7D09B00130BAD /* SwiftfulThinking_BumbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BCC62BC7D09B00130BAD /* SwiftfulThinking_BumbleTests.swift */; };
+		C073BCD12BC7D09B00130BAD /* SwiftfulThinking_BumbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BCD02BC7D09B00130BAD /* SwiftfulThinking_BumbleUITests.swift */; };
+		C073BCD32BC7D09B00130BAD /* SwiftfulThinking_BumbleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BCD22BC7D09B00130BAD /* SwiftfulThinking_BumbleUITestsLaunchTests.swift */; };
+		C073BCE22BC7D22C00130BAD /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C073BCE12BC7D22C00130BAD /* SDWebImageSwiftUI */; };
+		C073BCE52BC7D23700130BAD /* SwiftfulUI in Frameworks */ = {isa = PBXBuildFile; productRef = C073BCE42BC7D23700130BAD /* SwiftfulUI */; };
+		C073BCE82BC7D26900130BAD /* ImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BCE72BC7D26900130BAD /* ImageLoaderView.swift */; };
+		C073BCED2BC7D29200130BAD /* UserArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BCE92BC7D29200130BAD /* UserArray.swift */; };
+		C073BCEE2BC7D29200130BAD /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BCEA2BC7D29200130BAD /* DatabaseHelper.swift */; };
+		C073BCEF2BC7D29200130BAD /* ProductArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BCEB2BC7D29200130BAD /* ProductArray.swift */; };
+		C073BCF02BC7D29200130BAD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BCEC2BC7D29200130BAD /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C073BCC32BC7D09B00130BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C073BCAA2BC7D09900130BAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C073BCB12BC7D09900130BAD;
+			remoteInfo = SwiftfulThinking_Bumble;
+		};
+		C073BCCD2BC7D09B00130BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C073BCAA2BC7D09900130BAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C073BCB12BC7D09900130BAD;
+			remoteInfo = SwiftfulThinking_Bumble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C073BCB22BC7D09900130BAD /* SwiftfulThinking_Bumble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinking_Bumble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C073BCB52BC7D09900130BAD /* SwiftfulThinking_BumbleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinking_BumbleApp.swift; sourceTree = "<group>"; };
+		C073BCB72BC7D09900130BAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C073BCB92BC7D09B00130BAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C073BCBC2BC7D09B00130BAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C073BCC22BC7D09B00130BAD /* SwiftfulThinking_BumbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftfulThinking_BumbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C073BCC62BC7D09B00130BAD /* SwiftfulThinking_BumbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinking_BumbleTests.swift; sourceTree = "<group>"; };
+		C073BCCC2BC7D09B00130BAD /* SwiftfulThinking_BumbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftfulThinking_BumbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C073BCD02BC7D09B00130BAD /* SwiftfulThinking_BumbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinking_BumbleUITests.swift; sourceTree = "<group>"; };
+		C073BCD22BC7D09B00130BAD /* SwiftfulThinking_BumbleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinking_BumbleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C073BCE72BC7D26900130BAD /* ImageLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderView.swift; sourceTree = "<group>"; };
+		C073BCE92BC7D29200130BAD /* UserArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserArray.swift; path = ../../../SwiftfulThinking_Spotify/Shared/UserArray.swift; sourceTree = "<group>"; };
+		C073BCEA2BC7D29200130BAD /* DatabaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseHelper.swift; path = ../../../SwiftfulThinking_Spotify/Shared/DatabaseHelper.swift; sourceTree = "<group>"; };
+		C073BCEB2BC7D29200130BAD /* ProductArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductArray.swift; path = ../../../SwiftfulThinking_Spotify/Shared/ProductArray.swift; sourceTree = "<group>"; };
+		C073BCEC2BC7D29200130BAD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../../../SwiftfulThinking_Spotify/Shared/Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C073BCAF2BC7D09900130BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C073BCE52BC7D23700130BAD /* SwiftfulUI in Frameworks */,
+				C073BCE22BC7D22C00130BAD /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C073BCBF2BC7D09B00130BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C073BCC92BC7D09B00130BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C073BCA92BC7D09900130BAD = {
+			isa = PBXGroup;
+			children = (
+				C073BCB42BC7D09900130BAD /* SwiftfulThinking_Bumble */,
+				C073BCC52BC7D09B00130BAD /* SwiftfulThinking_BumbleTests */,
+				C073BCCF2BC7D09B00130BAD /* SwiftfulThinking_BumbleUITests */,
+				C073BCB32BC7D09900130BAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C073BCB32BC7D09900130BAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C073BCB22BC7D09900130BAD /* SwiftfulThinking_Bumble.app */,
+				C073BCC22BC7D09B00130BAD /* SwiftfulThinking_BumbleTests.xctest */,
+				C073BCCC2BC7D09B00130BAD /* SwiftfulThinking_BumbleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C073BCB42BC7D09900130BAD /* SwiftfulThinking_Bumble */ = {
+			isa = PBXGroup;
+			children = (
+				C073BCE62BC7D25F00130BAD /* Shared */,
+				C073BCDF2BC7D20F00130BAD /* Components */,
+				C073BCB52BC7D09900130BAD /* SwiftfulThinking_BumbleApp.swift */,
+				C073BCB72BC7D09900130BAD /* ContentView.swift */,
+				C073BCB92BC7D09B00130BAD /* Assets.xcassets */,
+				C073BCBB2BC7D09B00130BAD /* Preview Content */,
+			);
+			path = SwiftfulThinking_Bumble;
+			sourceTree = "<group>";
+		};
+		C073BCBB2BC7D09B00130BAD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C073BCBC2BC7D09B00130BAD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C073BCC52BC7D09B00130BAD /* SwiftfulThinking_BumbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C073BCC62BC7D09B00130BAD /* SwiftfulThinking_BumbleTests.swift */,
+			);
+			path = SwiftfulThinking_BumbleTests;
+			sourceTree = "<group>";
+		};
+		C073BCCF2BC7D09B00130BAD /* SwiftfulThinking_BumbleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C073BCD02BC7D09B00130BAD /* SwiftfulThinking_BumbleUITests.swift */,
+				C073BCD22BC7D09B00130BAD /* SwiftfulThinking_BumbleUITestsLaunchTests.swift */,
+			);
+			path = SwiftfulThinking_BumbleUITests;
+			sourceTree = "<group>";
+		};
+		C073BCDF2BC7D20F00130BAD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C073BCE62BC7D25F00130BAD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C073BCEC2BC7D29200130BAD /* Constants.swift */,
+				C073BCEA2BC7D29200130BAD /* DatabaseHelper.swift */,
+				C073BCEB2BC7D29200130BAD /* ProductArray.swift */,
+				C073BCE92BC7D29200130BAD /* UserArray.swift */,
+				C073BCE72BC7D26900130BAD /* ImageLoaderView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C073BCB12BC7D09900130BAD /* SwiftfulThinking_Bumble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C073BCD62BC7D09B00130BAD /* Build configuration list for PBXNativeTarget "SwiftfulThinking_Bumble" */;
+			buildPhases = (
+				C073BCAE2BC7D09900130BAD /* Sources */,
+				C073BCAF2BC7D09900130BAD /* Frameworks */,
+				C073BCB02BC7D09900130BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftfulThinking_Bumble;
+			packageProductDependencies = (
+				C073BCE12BC7D22C00130BAD /* SDWebImageSwiftUI */,
+				C073BCE42BC7D23700130BAD /* SwiftfulUI */,
+			);
+			productName = SwiftfulThinking_Bumble;
+			productReference = C073BCB22BC7D09900130BAD /* SwiftfulThinking_Bumble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C073BCC12BC7D09B00130BAD /* SwiftfulThinking_BumbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C073BCD92BC7D09B00130BAD /* Build configuration list for PBXNativeTarget "SwiftfulThinking_BumbleTests" */;
+			buildPhases = (
+				C073BCBE2BC7D09B00130BAD /* Sources */,
+				C073BCBF2BC7D09B00130BAD /* Frameworks */,
+				C073BCC02BC7D09B00130BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C073BCC42BC7D09B00130BAD /* PBXTargetDependency */,
+			);
+			name = SwiftfulThinking_BumbleTests;
+			productName = SwiftfulThinking_BumbleTests;
+			productReference = C073BCC22BC7D09B00130BAD /* SwiftfulThinking_BumbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C073BCCB2BC7D09B00130BAD /* SwiftfulThinking_BumbleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C073BCDC2BC7D09B00130BAD /* Build configuration list for PBXNativeTarget "SwiftfulThinking_BumbleUITests" */;
+			buildPhases = (
+				C073BCC82BC7D09B00130BAD /* Sources */,
+				C073BCC92BC7D09B00130BAD /* Frameworks */,
+				C073BCCA2BC7D09B00130BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C073BCCE2BC7D09B00130BAD /* PBXTargetDependency */,
+			);
+			name = SwiftfulThinking_BumbleUITests;
+			productName = SwiftfulThinking_BumbleUITests;
+			productReference = C073BCCC2BC7D09B00130BAD /* SwiftfulThinking_BumbleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C073BCAA2BC7D09900130BAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C073BCB12BC7D09900130BAD = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C073BCC12BC7D09B00130BAD = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C073BCB12BC7D09900130BAD;
+					};
+					C073BCCB2BC7D09B00130BAD = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C073BCB12BC7D09900130BAD;
+					};
+				};
+			};
+			buildConfigurationList = C073BCAD2BC7D09900130BAD /* Build configuration list for PBXProject "SwiftfulThinking_Bumble" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C073BCA92BC7D09900130BAD;
+			packageReferences = (
+				C073BCE02BC7D22C00130BAD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				C073BCE32BC7D23600130BAD /* XCRemoteSwiftPackageReference "SwiftfulUI" */,
+			);
+			productRefGroup = C073BCB32BC7D09900130BAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C073BCB12BC7D09900130BAD /* SwiftfulThinking_Bumble */,
+				C073BCC12BC7D09B00130BAD /* SwiftfulThinking_BumbleTests */,
+				C073BCCB2BC7D09B00130BAD /* SwiftfulThinking_BumbleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C073BCB02BC7D09900130BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C073BCBD2BC7D09B00130BAD /* Preview Assets.xcassets in Resources */,
+				C073BCBA2BC7D09B00130BAD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C073BCC02BC7D09B00130BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C073BCCA2BC7D09B00130BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C073BCAE2BC7D09900130BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C073BCED2BC7D29200130BAD /* UserArray.swift in Sources */,
+				C073BCEE2BC7D29200130BAD /* DatabaseHelper.swift in Sources */,
+				C073BCE82BC7D26900130BAD /* ImageLoaderView.swift in Sources */,
+				C073BCEF2BC7D29200130BAD /* ProductArray.swift in Sources */,
+				C073BCF02BC7D29200130BAD /* Constants.swift in Sources */,
+				C073BCB82BC7D09900130BAD /* ContentView.swift in Sources */,
+				C073BCB62BC7D09900130BAD /* SwiftfulThinking_BumbleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C073BCBE2BC7D09B00130BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C073BCC72BC7D09B00130BAD /* SwiftfulThinking_BumbleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C073BCC82BC7D09B00130BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C073BCD12BC7D09B00130BAD /* SwiftfulThinking_BumbleUITests.swift in Sources */,
+				C073BCD32BC7D09B00130BAD /* SwiftfulThinking_BumbleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C073BCC42BC7D09B00130BAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C073BCB12BC7D09900130BAD /* SwiftfulThinking_Bumble */;
+			targetProxy = C073BCC32BC7D09B00130BAD /* PBXContainerItemProxy */;
+		};
+		C073BCCE2BC7D09B00130BAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C073BCB12BC7D09900130BAD /* SwiftfulThinking_Bumble */;
+			targetProxy = C073BCCD2BC7D09B00130BAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C073BCD42BC7D09B00130BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C073BCD52BC7D09B00130BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C073BCD72BC7D09B00130BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulThinking_Bumble/Preview Content\"";
+				DEVELOPMENT_TEAM = Z225784MRD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kimscastle.SwiftfulThinking-Bumble";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C073BCD82BC7D09B00130BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulThinking_Bumble/Preview Content\"";
+				DEVELOPMENT_TEAM = Z225784MRD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kimscastle.SwiftfulThinking-Bumble";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C073BCDA2BC7D09B00130BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z225784MRD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kimscastle.SwiftfulThinking-BumbleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftfulThinking_Bumble.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftfulThinking_Bumble";
+			};
+			name = Debug;
+		};
+		C073BCDB2BC7D09B00130BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z225784MRD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kimscastle.SwiftfulThinking-BumbleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftfulThinking_Bumble.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftfulThinking_Bumble";
+			};
+			name = Release;
+		};
+		C073BCDD2BC7D09B00130BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z225784MRD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kimscastle.SwiftfulThinking-BumbleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftfulThinking_Bumble;
+			};
+			name = Debug;
+		};
+		C073BCDE2BC7D09B00130BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z225784MRD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kimscastle.SwiftfulThinking-BumbleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftfulThinking_Bumble;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C073BCAD2BC7D09900130BAD /* Build configuration list for PBXProject "SwiftfulThinking_Bumble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C073BCD42BC7D09B00130BAD /* Debug */,
+				C073BCD52BC7D09B00130BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C073BCD62BC7D09B00130BAD /* Build configuration list for PBXNativeTarget "SwiftfulThinking_Bumble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C073BCD72BC7D09B00130BAD /* Debug */,
+				C073BCD82BC7D09B00130BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C073BCD92BC7D09B00130BAD /* Build configuration list for PBXNativeTarget "SwiftfulThinking_BumbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C073BCDA2BC7D09B00130BAD /* Debug */,
+				C073BCDB2BC7D09B00130BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C073BCDC2BC7D09B00130BAD /* Build configuration list for PBXNativeTarget "SwiftfulThinking_BumbleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C073BCDD2BC7D09B00130BAD /* Debug */,
+				C073BCDE2BC7D09B00130BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C073BCE02BC7D22C00130BAD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.2;
+			};
+		};
+		C073BCE32BC7D23600130BAD /* XCRemoteSwiftPackageReference "SwiftfulUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C073BCE12BC7D22C00130BAD /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C073BCE02BC7D22C00130BAD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		C073BCE42BC7D23700130BAD /* SwiftfulUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C073BCE32BC7D23600130BAD /* XCRemoteSwiftPackageReference "SwiftfulUI" */;
+			productName = SwiftfulUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C073BCAA2BC7D09900130BAD /* Project object */;
+}

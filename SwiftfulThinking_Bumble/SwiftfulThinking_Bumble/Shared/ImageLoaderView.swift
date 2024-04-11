@@ -1,8 +1,8 @@
 //
 //  ImageLoaderView.swift
-//  SwiftfulThinking_Spotify
+//  SwiftfulThinking_Bumble
 //
-//  Created by uiskim on 4/3/24.
+//  Created by uiskim on 4/11/24.
 //
 
 import SwiftUI
