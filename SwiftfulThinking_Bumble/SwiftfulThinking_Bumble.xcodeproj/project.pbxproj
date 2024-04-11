@@ -21,6 +21,8 @@
 		C073BCEE2BC7D29200130BAD /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BCEA2BC7D29200130BAD /* DatabaseHelper.swift */; };
 		C073BCEF2BC7D29200130BAD /* ProductArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BCEB2BC7D29200130BAD /* ProductArray.swift */; };
 		C073BCF02BC7D29200130BAD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BCEC2BC7D29200130BAD /* Constants.swift */; };
+		C073BCF32BC7D2E900130BAD /* BumbleHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BCF22BC7D2E900130BAD /* BumbleHomeView.swift */; };
+		C073BCF52BC7DA9A00130BAD /* BumbleFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BCF42BC7DA9A00130BAD /* BumbleFilterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		C073BCEA2BC7D29200130BAD /* DatabaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseHelper.swift; path = ../../../SwiftfulThinking_Spotify/Shared/DatabaseHelper.swift; sourceTree = "<group>"; };
 		C073BCEB2BC7D29200130BAD /* ProductArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductArray.swift; path = ../../../SwiftfulThinking_Spotify/Shared/ProductArray.swift; sourceTree = "<group>"; };
 		C073BCEC2BC7D29200130BAD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../../../SwiftfulThinking_Spotify/Shared/Constants.swift; sourceTree = "<group>"; };
+		C073BCF22BC7D2E900130BAD /* BumbleHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleHomeView.swift; sourceTree = "<group>"; };
+		C073BCF42BC7DA9A00130BAD /* BumbleFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleFilterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 		C073BCB42BC7D09900130BAD /* SwiftfulThinking_Bumble */ = {
 			isa = PBXGroup;
 			children = (
+				C073BCF12BC7D2DE00130BAD /* Core */,
 				C073BCE62BC7D25F00130BAD /* Shared */,
 				C073BCDF2BC7D20F00130BAD /* Components */,
 				C073BCB52BC7D09900130BAD /* SwiftfulThinking_BumbleApp.swift */,
@@ -146,6 +151,7 @@
 		C073BCDF2BC7D20F00130BAD /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				C073BCF42BC7DA9A00130BAD /* BumbleFilterView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -160,6 +166,14 @@
 				C073BCE72BC7D26900130BAD /* ImageLoaderView.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		C073BCF12BC7D2DE00130BAD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C073BCF22BC7D2E900130BAD /* BumbleHomeView.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,8 +316,10 @@
 			files = (
 				C073BCED2BC7D29200130BAD /* UserArray.swift in Sources */,
 				C073BCEE2BC7D29200130BAD /* DatabaseHelper.swift in Sources */,
+				C073BCF32BC7D2E900130BAD /* BumbleHomeView.swift in Sources */,
 				C073BCE82BC7D26900130BAD /* ImageLoaderView.swift in Sources */,
 				C073BCEF2BC7D29200130BAD /* ProductArray.swift in Sources */,
+				C073BCF52BC7DA9A00130BAD /* BumbleFilterView.swift in Sources */,
 				C073BCF02BC7D29200130BAD /* Constants.swift in Sources */,
 				C073BCB82BC7D09900130BAD /* ContentView.swift in Sources */,
 				C073BCB62BC7D09900130BAD /* SwiftfulThinking_BumbleApp.swift in Sources */,
