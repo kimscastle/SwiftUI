@@ -14,7 +14,7 @@ struct ProductArray: Codable {
 }
 
 // MARK: - Product
-struct Product: Codable, Identifiable {
+struct Product: Codable, Identifiable, Hashable {
     let id: Int
     let title, description: String
     let price: Int
@@ -26,6 +26,22 @@ struct Product: Codable, Identifiable {
     
     var firstImage: String {
         images.first ?? Constants.randomImage
+    }
+    
+    static var mock: Product {
+        return .init(
+            id: 123,
+            title: "Example product title",
+            description: "This is some mock product description that goes here.",
+            price: 999,
+            discountPercentage: 15,
+            rating: 4.5,
+            stock: 50,
+            brand: "Apple",
+            category: "Electroic Device",
+            thumbnail: Constants.randomImage,
+            images: [Constants.randomImage, Constants.randomImage, Constants.randomImage]
+        )
     }
 }
 

@@ -15,44 +15,51 @@ struct SpotifyHomeView: View {
     @State private var productRow: [ProductRow] = []
     
     var body: some View {
-        ZStack {
-            // Background Color
-            Color.spotifyBlack
-                .ignoresSafeArea()
-            // Content
-            ScrollView {
-                LazyVStack(spacing: 1, pinnedViews: [.sectionHeaders]) {
-                    Section {
-                        VStack(spacing: 16) {
-                            recentSection
-                                .padding(.horizontal, 16)
-                            
-                            if let product = products.first {
-                                newReleaseSection(product: product)
+        NavigationStack {
+            ZStack {
+                // Background Color
+                Color.spotifyBlack
+                    .ignoresSafeArea()
+                // Content
+                ScrollView {
+                    LazyVStack(spacing: 1, pinnedViews: [.sectionHeaders]) {
+                        Section {
+                            VStack(spacing: 16) {
+                                recentSection
                                     .padding(.horizontal, 16)
-                            }
+                                
+                                if let product = products.first {
+                                    newReleaseSection(product: product)
+                                        .padding(.horizontal, 16)
+                                }
+                                
+                                listRow
+                                
+                            } //:VSTACK
                             
-                            listRow
-                            
-                        } //:VSTACK
-
-                    } header: {
-                        header
-                    }
-                } //:VSTACK
-                .padding(.top, 8)
-            } //:SCROLL
-            .scrollIndicators(.hidden)
-            .clipped()
-
-        } //:ZSTACK
-        .task {
-            await getData()
+                        } header: {
+                            header
+                        }
+                    } //:VSTACK
+                    .padding(.top, 8)
+                } //:SCROLL
+                .scrollIndicators(.hidden)
+                .clipped()
+                .navigationDestination(for: Product.self) { product in
+                    SpotifyPlaylistView()
+                }
+                
+                
+            } //:ZSTACK
+            .task {
+                await getData()
+            }
+            .toolbar(.hidden, for: .navigationBar)
         }
-        .toolbar(.hidden, for: .navigationBar)
     }
     
     private func getData() async {
+        guard products.isEmpty else { return }
         do {
             currentUser = try await DatabaseHelper().getUsers().first
             products = try await Array(DatabaseHelper().getProducts().prefix(8))
@@ -83,7 +90,7 @@ private extension SpotifyHomeView {
                 }
             }
             .frame(width: 35, height: 35)
-
+            
             
             ScrollView(.horizontal) {
                 HStack(spacing: 8) {
@@ -113,13 +120,13 @@ private extension SpotifyHomeView {
                   spacing: 10,
                   content: {
             ForEach(products) { product in
-                SpotifyRecentCell(
-                    imageName: product.firstImage,
-                    title: product.title
-                )
-                .asButton(.press) {
-                    
+                NavigationLink(value: product) {
+                    SpotifyRecentCell(
+                        imageName: product.firstImage,
+                        title: product.title
+                    )
                 }
+                .asButton(.press)
             }
         })
     }
@@ -150,10 +157,12 @@ private extension SpotifyHomeView {
                 ScrollView(.horizontal) {
                     HStack(alignment: .top, spacing: 16) {
                         ForEach(row.products) { product in
-                            ImageTitleRowCell(imageSize: 120, imageName: product.firstImage, title: product.title)
-                                .asButton(.press) {
-                                    
-                                }
+                            NavigationLink(value: product) {
+                                ImageTitleRowCell(imageSize: 120, imageName: product.firstImage, title: product.title)
+                            }
+                            
+                            .asButton(.press)
+                            
                         }
                     }
                     .padding(.horizontal, 16)

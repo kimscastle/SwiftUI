@@ -11,7 +11,16 @@ import SwiftUI
 struct SwiftfulThinking_SpotifyApp: App {
     var body: some Scene {
         WindowGroup {
-            SpotifyHomeView()
+            ZStack {
+                // Background Color
+                Color.black
+                    .ignoresSafeArea()
+                // Content
+//                ScrollView {
+                SpotifyHomeView()
+//                }
+//                .ignoresSafeArea()
+            } //:ZSTACK
         }
     }
 }

@@ -6,7 +6,8 @@
 //
 
 import SwiftUI
-
+//import SwiftfulUI
+//
 struct ButtonStyleViewModifier: ButtonStyle {
     
     let scale: CGFloat
@@ -37,7 +38,7 @@ extension View {
     }
     
     @ViewBuilder
-    func asButton(_ type: ButtonType = .tap, action: @escaping ()->Void) -> some View {
+    func asButton(_ type: ButtonType = .tap, action: @escaping ()->Void = {}) -> some View {
         switch type {
         case .press:
             self.asButton(scale: 0.95, action: action)
