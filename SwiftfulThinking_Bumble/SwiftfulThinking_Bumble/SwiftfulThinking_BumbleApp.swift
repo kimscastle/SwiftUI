@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftfulThinking_BumbleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BumbleHomeView()
         }
     }
 }
