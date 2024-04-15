@@ -34,24 +34,6 @@ struct User: Codable, Identifiable {
         "This is a sentence about me that will look good on my profile"
     }
     
-    var basics: [UserInterest] {
-        [
-            UserInterest(iconName: "ruler", emoji: nil, text: "\(height)"),
-            UserInterest(iconName: "graduationcap", emoji: nil, text: education),
-            UserInterest(iconName: "wineglass", emoji: nil, text: "Socially"),
-            UserInterest(iconName: "moon.stars.fill", emoji: nil, text: "Virgo")
-        ]
-    }
-    
-    var interests: [UserInterest] {
-        [
-            UserInterest(iconName: nil, emoji: "😁", text: "Running"),
-            UserInterest(iconName: nil, emoji: "📝", text: "Gym"),
-            UserInterest(iconName: nil, emoji: "🦅", text: "Music"),
-            UserInterest(iconName: nil, emoji: "🇫🇷", text: "Cooking")
-        ]
-    }
-    
     var images: [String] {
         [
             "https://picsum.photos/500/500",
