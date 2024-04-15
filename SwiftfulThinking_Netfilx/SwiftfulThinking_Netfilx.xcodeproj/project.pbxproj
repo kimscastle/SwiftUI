@@ -17,6 +17,8 @@
 		C073BDA82BCCD69D00130BAD /* SwiftfulUI in Frameworks */ = {isa = PBXBuildFile; productRef = C073BDA72BCCD69D00130BAD /* SwiftfulUI */; };
 		C073BDAB2BCCD6A600130BAD /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C073BDAA2BCCD6A600130BAD /* SDWebImageSwiftUI */; };
 		C073BDAF2BCCD9D100130BAD /* NetfilxHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BDAE2BCCD9D100130BAD /* NetfilxHomeView.swift */; };
+		C073BDB12BCCDC5900130BAD /* NetflixFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BDB02BCCDC5900130BAD /* NetflixFilterCell.swift */; };
+		C073BDB32BCCDD5900130BAD /* NetflixFilterBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BDB22BCCDD5900130BAD /* NetflixFilterBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		C073BD972BCCD68800130BAD /* SwiftfulThinking_NetfilxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinking_NetfilxUITests.swift; sourceTree = "<group>"; };
 		C073BD992BCCD68800130BAD /* SwiftfulThinking_NetfilxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinking_NetfilxUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C073BDAE2BCCD9D100130BAD /* NetfilxHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetfilxHomeView.swift; sourceTree = "<group>"; };
+		C073BDB02BCCDC5900130BAD /* NetflixFilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixFilterCell.swift; sourceTree = "<group>"; };
+		C073BDB22BCCDD5900130BAD /* NetflixFilterBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixFilterBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,8 @@
 		C073BDAD2BCCD9C300130BAD /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				C073BDB02BCCDC5900130BAD /* NetflixFilterCell.swift */,
+				C073BDB22BCCDD5900130BAD /* NetflixFilterBarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -288,8 +294,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C073BDB32BCCDD5900130BAD /* NetflixFilterBarView.swift in Sources */,
 				C073BDAF2BCCD9D100130BAD /* NetfilxHomeView.swift in Sources */,
 				C073BD7F2BCCD68600130BAD /* ContentView.swift in Sources */,
+				C073BDB12BCCDC5900130BAD /* NetflixFilterCell.swift in Sources */,
 				C073BD7D2BCCD68600130BAD /* SwiftfulThinking_NetfilxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
