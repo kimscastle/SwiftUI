@@ -25,6 +25,7 @@
 		C073BDC02BCCE6D600130BAD /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BDBB2BCCE6D600130BAD /* DatabaseHelper.swift */; };
 		C073BDC12BCCE6D600130BAD /* ProductArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BDBC2BCCE6D600130BAD /* ProductArray.swift */; };
 		C073BDC22BCCE6D600130BAD /* UserArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BDBD2BCCE6D600130BAD /* UserArray.swift */; };
+		C073BDC42BCCFD6400130BAD /* NetflixMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BDC32BCCFD6400130BAD /* NetflixMovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		C073BDBB2BCCE6D600130BAD /* DatabaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseHelper.swift; path = ../../../SwiftfulThinking_Spotify/Shared/DatabaseHelper.swift; sourceTree = "<group>"; };
 		C073BDBC2BCCE6D600130BAD /* ProductArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductArray.swift; path = ../../../SwiftfulThinking_Spotify/Shared/ProductArray.swift; sourceTree = "<group>"; };
 		C073BDBD2BCCE6D600130BAD /* UserArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserArray.swift; path = ../../../SwiftfulThinking_Spotify/Shared/UserArray.swift; sourceTree = "<group>"; };
+		C073BDC32BCCFD6400130BAD /* NetflixMovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixMovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				C073BDB02BCCDC5900130BAD /* NetflixFilterCell.swift */,
 				C073BDB22BCCDD5900130BAD /* NetflixFilterBarView.swift */,
 				C073BDB42BCCE69600130BAD /* NetflixHeroCell.swift */,
+				C073BDC32BCCFD6400130BAD /* NetflixMovieCell.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				C073BD7F2BCCD68600130BAD /* ContentView.swift in Sources */,
 				C073BDBE2BCCE6D600130BAD /* Constants.swift in Sources */,
 				C073BDBF2BCCE6D600130BAD /* ImageLoaderView.swift in Sources */,
+				C073BDC42BCCFD6400130BAD /* NetflixMovieCell.swift in Sources */,
 				C073BDC22BCCE6D600130BAD /* UserArray.swift in Sources */,
 				C073BDB12BCCDC5900130BAD /* NetflixFilterCell.swift in Sources */,
 				C073BD7D2BCCD68600130BAD /* SwiftfulThinking_NetfilxApp.swift in Sources */,
