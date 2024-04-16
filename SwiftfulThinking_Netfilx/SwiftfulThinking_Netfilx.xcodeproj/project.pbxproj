@@ -29,6 +29,9 @@
 		C073BDC62BCD0F2300130BAD /* NetflixMovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BDC52BCD0F2300130BAD /* NetflixMovieDetailView.swift */; };
 		C073BDC82BCD0F7E00130BAD /* NetfilxDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073BDC72BCD0F7E00130BAD /* NetfilxDetailHeaderView.swift */; };
 		C0CC5A412BCD137500B37C15 /* NetflixDetailProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CC5A402BCD137500B37C15 /* NetflixDetailProductView.swift */; };
+		C0CC5A432BCD187A00B37C15 /* MyListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CC5A422BCD187A00B37C15 /* MyListButton.swift */; };
+		C0CC5A7C2BCE0B1900B37C15 /* RateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CC5A7B2BCE0B1900B37C15 /* RateButton.swift */; };
+		C0CC5A7E2BCE0DBC00B37C15 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CC5A7D2BCE0DBC00B37C15 /* ShareButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,9 @@
 		C073BDC52BCD0F2300130BAD /* NetflixMovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixMovieDetailView.swift; sourceTree = "<group>"; };
 		C073BDC72BCD0F7E00130BAD /* NetfilxDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetfilxDetailHeaderView.swift; sourceTree = "<group>"; };
 		C0CC5A402BCD137500B37C15 /* NetflixDetailProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixDetailProductView.swift; sourceTree = "<group>"; };
+		C0CC5A422BCD187A00B37C15 /* MyListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListButton.swift; sourceTree = "<group>"; };
+		C0CC5A7B2BCE0B1900B37C15 /* RateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateButton.swift; sourceTree = "<group>"; };
+		C0CC5A7D2BCE0DBC00B37C15 /* ShareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,11 +179,14 @@
 			isa = PBXGroup;
 			children = (
 				C073BDB02BCCDC5900130BAD /* NetflixFilterCell.swift */,
+				C0CC5A422BCD187A00B37C15 /* MyListButton.swift */,
+				C0CC5A7B2BCE0B1900B37C15 /* RateButton.swift */,
 				C073BDB22BCCDD5900130BAD /* NetflixFilterBarView.swift */,
 				C073BDB42BCCE69600130BAD /* NetflixHeroCell.swift */,
 				C073BDC32BCCFD6400130BAD /* NetflixMovieCell.swift */,
 				C073BDC72BCD0F7E00130BAD /* NetfilxDetailHeaderView.swift */,
 				C0CC5A402BCD137500B37C15 /* NetflixDetailProductView.swift */,
+				C0CC5A7D2BCE0DBC00B37C15 /* ShareButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -334,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C073BDC62BCD0F2300130BAD /* NetflixMovieDetailView.swift in Sources */,
+				C0CC5A7C2BCE0B1900B37C15 /* RateButton.swift in Sources */,
 				C073BDB32BCCDD5900130BAD /* NetflixFilterBarView.swift in Sources */,
 				C073BDC02BCCE6D600130BAD /* DatabaseHelper.swift in Sources */,
 				C073BDAF2BCCD9D100130BAD /* NetfilxHomeView.swift in Sources */,
@@ -341,9 +351,11 @@
 				C073BDC82BCD0F7E00130BAD /* NetfilxDetailHeaderView.swift in Sources */,
 				C0CC5A412BCD137500B37C15 /* NetflixDetailProductView.swift in Sources */,
 				C073BD7F2BCCD68600130BAD /* ContentView.swift in Sources */,
+				C0CC5A7E2BCE0DBC00B37C15 /* ShareButton.swift in Sources */,
 				C073BDBE2BCCE6D600130BAD /* Constants.swift in Sources */,
 				C073BDBF2BCCE6D600130BAD /* ImageLoaderView.swift in Sources */,
 				C073BDC42BCCFD6400130BAD /* NetflixMovieCell.swift in Sources */,
+				C0CC5A432BCD187A00B37C15 /* MyListButton.swift in Sources */,
 				C073BDC22BCCE6D600130BAD /* UserArray.swift in Sources */,
 				C073BDB12BCCDC5900130BAD /* NetflixFilterCell.swift in Sources */,
 				C073BD7D2BCCD68600130BAD /* SwiftfulThinking_NetfilxApp.swift in Sources */,
